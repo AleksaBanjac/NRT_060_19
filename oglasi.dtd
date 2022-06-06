@@ -1,0 +1,17 @@
+<!ELEMENT PoducOglas (Oglas+)>
+<!ELEMENT Oglas (Kategorija, DatumIsteka, Cena, TekstOglasa, Oznaka+, Email*)>
+<!ELEMENT DatumIsteka (Dan, Mesesc, Godina)>
+<!ELEMENT Kategorija (#PCDATA)>
+<!ELEMENT DatumIsteka (#PCDATA)> 
+<!ELEMENT Cena (#PCDATA)>
+<!ELEMENT TekstOglasa (#PCDATA)>
+<!ELEMENT Oznaka (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Dan (#PCDATA)>
+<!ELEMENT Mesec (#PCDATA)>
+<!ELEMENT Godina (#PCDATA)>
+
+<!ATTLIST Kategorija (poducavanje|privatni casovi|priprema za prijemni) (#REQUIRED)>
+<!ATTLIST Cena valuta (rsd|eur) "rsd">
+<!ATTLIST Oznaka oznaka (#REQUIRED)>
+<!ATTLIST Email tip (privatni|sluzbeni) (#REQUIRED)>
