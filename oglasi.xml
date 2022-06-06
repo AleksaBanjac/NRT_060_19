@@ -1,0 +1,14 @@
+<PoducOglas>
+    <Oglas>
+        <Kategorija tip="poducavanje">Slikanje</Kategorija>
+        <DatumIsteka>
+            <Dan>26</Dan>
+            <Mesec>7</Mesec>
+            <Godina>2022</Godina>
+        </DatumIsteka>
+        <Cena valuta="rsd">1500</Cena>
+        <TekstOglasa>Casovi slikanja</TekstOglasa>
+        <Oznaka oznaka="uljane boje">pocetnici</Oznaka>
+        <Email tip="privatni">privatni@gmail.com</Email>
+    </Oglas>
+</PoducOglas>
